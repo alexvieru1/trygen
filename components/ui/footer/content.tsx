@@ -16,7 +16,7 @@ export default function Content() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="bg-[#4E4E5A] py-8 px-6 md:px-12 w-full h-full flex flex-col justify-between">
+    <div className="bg-[#292929] py-8 px-6 md:px-12 w-full h-full flex flex-col justify-between">
       <div className="flex flex-col md:flex-row justify-between items-start gap-10">
         <div className="flex shrink-0 gap-20">
           <div className="flex flex-col gap-2">
@@ -26,14 +26,14 @@ export default function Content() {
               className="text-white flex items-center gap-2 hover:underline"
             >
               <IconHome size={18} />
-              <span className="inline">Acasa</span>
+              <span className="inline">Acasă</span>
             </Link>
             <Link
               href="/povestea-noastra"
               className="text-white flex items-center gap-2 hover:underline"
             >
               <IconInfoCircle size={18} />
-              <span className="inline">Povestea noastra</span>
+              <span className="inline">Povestea noastră</span>
             </Link>
             <Link
               href="/oferte"
